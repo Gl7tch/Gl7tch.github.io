@@ -1,0 +1,37 @@
+:root{
+    --color-black: #000000;
+    --color-gray: #181818;
+    --color-red: #7D0B0B;
+    --color-blue: #0B163C;
+    --color-white: #ffffff;
+ }
+ .skills{
+   display: flex;
+   font-family: Fira Code, normal;
+   color: var(--color-black);
+   flex-direction: row;
+ }
+ .boxSkills{
+    display: inline-block;
+    background-color: var(--color-red);
+    box-shadow: 50px 50px 0 var(--color-black);
+    width: 1174px;
+    height: 590px;
+    text-align: center;
+    margin-top: 57px;
+    margin-bottom: 88px;
+    margin-left: 160px;
+ }
+ .skills .icon{
+   margin-left: 70px;
+   margin-right: 27px;
+ }
+ .bar{
+   background-color: var(--color-white);
+   border: 0px solid var(--color-black);
+   height: 30px;
+ }
+ .bar::-webkit-progress-bar,
+ .bar::-moz-progress-bar{
+   background-color: var(--color-black);
+ }

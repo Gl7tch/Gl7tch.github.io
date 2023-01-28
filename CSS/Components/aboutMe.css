@@ -1,0 +1,23 @@
+:root{
+    --color-black: #000000;
+    --color-gray: #181818;
+    --color-red: #7D0B0B;
+    --color-blue: #0B163C;
+    --color-white: #ffffff;
+}
+.description{
+    color: var(--color-white);
+    margin-top: 60px;
+    display: inline-block;
+    background-color: transparent;
+    width: 1174px;
+    height: 200px;
+    text-align: center;
+    margin-top: 57px;
+    margin-bottom: 88px;
+}
+.about{
+    line-height: 35px;
+    margin: 40px 0px;
+    color: var(--color-white);
+}

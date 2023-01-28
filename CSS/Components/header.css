@@ -1,0 +1,95 @@
+:root{
+    --color-black: #000000;
+    --color-gray: #181818;
+    --color-red: #7D0B0B;
+    --color-blue: #0B163C;
+    --color-white: #ffffff;
+}
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    text-align: center;
+    font-family: Fira Code, Nomal;
+    background-color: var(--color-gray);
+    color: var(--color-black),
+       var(--color-white);
+}
+.img_logo_header{
+    width: 60px;
+    margin-top: 30px;
+}
+.header,
+.navigation_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header{
+    background-color: rgba(0, 0, 0, 0);
+    justify-content: space-between;
+    padding: 0 08%;
+    height: 56px;
+    background-image: url(../../assets/img/giphy.gif);
+    background-size: cover;
+}
+.navigation_header{
+    gap: 34px;
+    z-index: 2;
+}
+.content{
+    height: 100vh;
+    transition: 1s;
+}
+.navigation_header a{
+    text-decoration: none;
+    color: var(--color-white);
+    transition: 1s;
+}
+.navigation_header a:hover{
+    color: var(--color-red);
+}
+.active{
+    background-color: var(--color-red);
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn_icon_header{
+    background-color: transparent;
+    border: none;
+    color: var(--color-white);
+    cursor: pointer;
+    display: none;
+}
+a{
+    color: var(--color-black) 
+        var(--color-white);
+}
+@media screen and (max-width: 768px) {
+    .btn_icon_header{
+        display: block;
+    }
+    .navigation_header{
+        position: absolute;
+        flex-direction: column;
+        top: 0;
+        background-color: var(--color-blue);
+        height: 100%;
+        width: 35vw;
+        padding: 16px;
+        animation-duration: 1s;
+        margin-left: -100vw;
+ }
+ #button{
+    display: inline-block;
+    background-color: var(--color-red);
+    height: 20px;
+    padding: 12px 15px;
+ }
+}
+
+@keyframes showSidebar {
+ from {margin-left: -100vw;}
+ to {margin-left: -10vw;}
+}

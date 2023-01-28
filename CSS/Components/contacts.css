@@ -1,0 +1,67 @@
+:root{
+    --color-black: #000000;
+    --color-gray: #181818;
+    --color-red: #7D0B0B;
+    --color-blue: #0B163C;
+    --color-white: #ffffff;
+}
+.form{
+   font-family: Fira Code;
+    display: inline-block;
+    background-color: var(--color-red);
+    box-shadow: 50px 50px 0 var(--color-black);
+    width: 1174px;
+    height: 1000px;
+    text-align: center;
+    margin-top: 57px;
+    margin-bottom: 88px;
+}
+.elements{
+   padding: 0px 90px;
+}
+.label{
+   font-family: Fira Code,normal;
+   font-size: 23px;
+}
+.input{
+   border: none;
+   background-color: var(--color-black);
+   border-radius: 35px;
+   height: 20px;
+   width: 950px;
+   color: var(--color-white);
+   font-size: 23px;
+   padding: 15px 15px;
+   margin: 10px 0px 20px;
+}
+.input-textarea{
+   border: none;
+   background-color: var(--color-black);
+   border-radius: 35px;
+   height: 380px;
+   width: 950px;
+   color: var(--color-white);
+   font-size: 23px;
+   padding: 15px 15px;
+   margin: 10px 0px 20px;
+}
+.sendButton{
+   display: inline-block;
+   background-color: var(--color-blue);
+   box-shadow: 10px 10px 0 var(--color-black);
+   border: none;
+   padding: 16px 118px;
+   text-decoration: none;
+   margin-top: 30px;
+   margin-bottom: 0px;
+   margin-left: 440px;
+   margin-right: 440px;
+   cursor: pointer;
+}
+
+
+
+
+
+
+

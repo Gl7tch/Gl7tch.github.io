@@ -1,0 +1,53 @@
+:root{
+   --color-black: #000000;
+   --color-gray: #181818;
+   --color-red: #7D0B0B;
+   --color-blue: #0B163C;
+   --color-white: #ffffff;
+}
+.button{
+   display: flex;
+   background-color: var(--color-red);
+   box-shadow: 10px 10px 0 var(--color-black);
+   padding: 16px 150px;
+   text-decoration: none;
+   text-align: center;
+   margin-top: 30px;
+   margin-left: 93px;
+   margin-right: 1040px;
+}
+.h1{
+   text-align: center;
+    font-family: Fira Code, normal;
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--color-black),
+           var(--color-white);
+ }
+ .h2{
+   text-align: center;
+    font-family: Fira Code, normal;
+    font-size: 30px;
+    font-weight: 400;
+ }
+ #box{
+   display: inline-block;
+   background-color: var(--color-red);
+   box-shadow: 10px 10px 0 var(--color-black);
+   padding: 20px 45px 60px;
+   margin-top: 80px;
+   margin-bottom: 20px;
+   margin-left: 93px;
+   margin-right: 1044px;
+   font-size: 30px;
+ }
+ .banner{
+   background-image: url(../../assets/img/giphy.gif);
+   background-repeat: no-repeat;
+   background-size: 100%;
+ }
+ .title{
+   margin-top: 30px;
+   margin-bottom: 30px;
+   font-size: 30px;
+ }

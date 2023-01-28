@@ -1,0 +1,23 @@
+.social{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 480px 30px;
+ }
+  .twitterIcon{
+     background-color: transparent;
+     border: none;
+     color: var(--color-white);
+     cursor: pointer;
+  }
+  .linkedinIcon{
+    background-color: transparent;
+    border: none;
+    color: var(--color-white);
+    cursor: pointer;
+ }
+  .githubIcon{
+     background-color: transparent;
+     border: none;
+     color: var(--color-white);
+     cursor: pointer;
+  }
