@@ -1,0 +1,136 @@
+:root{
+    --color-black: #000000;
+    --color-gray: #181818;
+    --color-red: #7D0B0B;
+    --color-blue: #0B163C;
+    --color-white: #ffffff;
+ }
+ body{
+    background-image: url(../../assets/img/i03_v1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Fira Code,Regular;
+}
+.container{
+    position: relative;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 30px;
+    background-color: rgba(0, 0, 0, 0.70);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.container .leftSide{
+    position: relative;
+    background-color: var(--color-red);
+    padding: 40px;
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid var(--color-black);
+}
+.profileText .img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText .img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profileText h2{
+    color: var(--color-black);
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profileText h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.contactInfo{
+    padding-top: 20px;
+}
+.contactInfo ul{
+    position: relative;
+    padding: 0px 15px;
+}
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 15px 0;
+    cursor: pointer;
+}
+.contactInfo ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+}
+.profile{
+    text-align: center;
+    margin-top: 40px;
+}
+.skills{
+    text-align: center;
+}
+.skills ul{
+    padding: 0px 15px;
+}
+.skills ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+.skills .bar{
+    position: relative;
+    background-color: var(--color-gray);
+    border: 0px solid var(--color-black);
+    height: 15px;
+    margin-top: 8px;
+}
+.bar::-webkit-progress-bar,
+.bar::-moz-progress-bar{
+   background-color: var(--color-black);
+ }
+.container .rightSide{
+    position: relative;
+    color: var(--color-white);
+    background-color: rgba(0, 0, 0, 0.70);
+}
+.rightSide h1{
+    font-weight: 400;
+    font-size: 45px;
+    padding-left: 25px;
+    padding-top: 50px;
+    border-bottom: 3px solid var(--color-red);
+}
+.rightSide h2{
+    font-weight: 400;
+    padding: 0px 23px;
+    font-size: 25px;
+}
+.experience ul li{
+    list-style: none;
+    font-weight: 100;
+    font-size: 15px;
+}
+.education ul li{
+    list-style: none;
+}

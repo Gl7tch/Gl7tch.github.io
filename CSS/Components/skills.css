@@ -7,9 +7,9 @@
  }
  .skills{
    display: flex;
+   flex-wrap: wrap;
    font-family: Fira Code, normal;
    color: var(--color-black);
-   flex-direction: row;
  }
  .boxSkills{
     display: inline-block;
@@ -25,6 +25,17 @@
  .skills .icon{
    margin-left: 70px;
    margin-right: 27px;
+ }
+ .skill{
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+ .habilit{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  margin-right: 300px;
  }
  .bar{
    background-color: var(--color-white);
