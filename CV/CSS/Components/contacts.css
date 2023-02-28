@@ -34,7 +34,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 1px solid var(--color-black);
+    border-bottom: 3px solid var(--color-black);
 }
 .profileText .img{
     position: relative;
@@ -133,4 +133,10 @@
 }
 .education ul li{
     list-style: none;
+}
+@media (max-width: 1000px){
+    .container{
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
 }
